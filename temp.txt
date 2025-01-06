@@ -1,0 +1,45 @@
+Training a large neural network pipeline involves three main steps:
+1. Preparing the data
+2. Write the architecture
+3. Write the productivity
+
+
+But, we'll start by developing the GPT-3 architecture.
+
+this video will seperate to three video, even i seperate any fashion, all content finally same
+
+first: write model architecture, initialize weight
+second: we will first skip data prepare, this part to end, will start write forward part 1
+three: forward part 2
+four: backward initialize weight, backward part 1
+
+1.Introduction to the GPT-3 Model Architecture
+
+In this part, we will describe the general architecture of GPT-3 (or a GPT-like model).
+This will include key components such as:
+Transformer architecture (self-attention layers, multi-head attention, etc.)
+Positional encodings
+Layer normalization
+Feed-forward neural networks
+2.Step 1: Initializing Weights and Building the Model
+
+We will begin by initializing the model's parameters (weights), which is crucial for building a neural network.
+This will involve defining the layers and components of the transformer block.
+We’ll show how to initialize weights for the attention layers, feed-forward networks, and layer normalization.
+3.Step 2: Forward Pass (Part 1)
+
+In this section, we will start with the forward pass, covering the first part of the process:
+Input tokenization and embedding layers
+Passing embeddings through the transformer blocks (without yet computing the final output)
+Attention mechanism and multi-head attention in the first part of the network
+4.Step 3: Forward Pass (Part 2)
+
+In this section, we’ll continue with the second part of the forward pass:
+Completing the feed-forward network and computing the logits (predictions)
+Output processing (softmax, logits to probabilities)
+5.Step 4: Backward Pass (Part 1)
+
+After we have completed the forward pass, we will move on to the backward pass (backpropagation).
+This step includes:
+Calculating the loss function (e.g., cross-entropy loss)
+Computing the gradients for each layer using backpropagation
